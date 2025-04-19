@@ -11,6 +11,7 @@ const menuItems = [
   { path: '/deals', label: 'Deals' },
   { path: '/recipes', label: 'Recipes' },
   { path: '/admin', label: 'Admin' },
+  { path: 'https://www.buildai.space/app/snap-chef-app-d85d4', label: 'RecipeGenerator'},
 ];
 
 const Header: React.FC = () => {
@@ -65,7 +66,7 @@ const Header: React.FC = () => {
                   <MenuIcon className="h-6 w-6" />
                 )}
               </button>
-              <Link to="/" className="text-2xl font-bold">R.K.S GROCERY</Link>
+              <Link to="/" className="text-2xl font-bold">NexLocal</Link>
             </div>
 
             <nav className="hidden md:flex space-x-6">
@@ -157,7 +158,7 @@ const Header: React.FC = () => {
           <div className="p-4">
             <div className="flex justify-between items-center mb-6">
               <Link to="/" className="text-xl font-bold" onClick={closeMobileMenu}>
-                R.K.S GROCERY
+                NexLocal
               </Link>
               <button onClick={closeMobileMenu} className="text-white">
                 <X className="h-6 w-6" />

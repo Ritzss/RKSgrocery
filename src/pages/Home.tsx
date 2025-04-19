@@ -10,7 +10,7 @@ function Home() {
   return (
     <Layout>
       <div className="text-center px-4 md:px-0">
-        <h1 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Welcome to R.K.S GROCERY</h1>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Welcome to NexLocal!!!</h1>
         <p className="text-base md:text-xl mb-4">Your one-stop shop for fresh groceries!</p>
         <LocationDisplay location={location} loading={loading} error={error} />
         <div className="flex justify-center mb-6 md:mb-8">
